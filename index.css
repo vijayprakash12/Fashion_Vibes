@@ -1,0 +1,262 @@
+/* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the header */
+  .top-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .top-header .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .top-header h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the navigation bar */
+
+  
+  /* Style for the logos in the navigation bar */
+  .sidenav .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the navigation links in the navigation bar */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the divs containing each navigation item in the navigation bar */
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the icons in the navigation bar */
+  .icon {
+    max-width: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the containers */
+  .container {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  /* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the header */
+  .top-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .top-header .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .top-header h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the new navigation bar */
+  .new-navbar {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* border-radius: 5px; */
+  }
+  
+  .new-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .new-navbar li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .new-navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Styling for the old navigation bar */
+  .sidenav {
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the logos in the old navigation bar */
+  .sidenav .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the navigation links in the old navigation bar */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the divs containing each navigation item in the old navigation bar */
+  .nav-item {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  /* Style for the icons in the old navigation bar */
+  .icon {
+    max-width: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the containers */
+  .container {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  .cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+  
+  .cont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+   
+  }
+  .cont3{
+    width: 30vh;
+    height: 70vh ;
+    border:2px ;
+    background-color: #f00f0f00;
+  }
+  /* Add CSS for the button */
+.top-right-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #3498db; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.top-right-button:hover {
+  background-color: #1e70bf; /* Background color on hover */
+}
+.con{
+  align-items: center;
+}
+
